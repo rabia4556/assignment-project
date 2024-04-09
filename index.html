@@ -44,7 +44,7 @@
       </div>
     </div>
     <!--about the cafe-->
-    <div id="about" class="about-the-cafe container p-5">
+    <div id="about" class="about-the-cafe container py-5">
       <h6>ABOUT THE CAFE</h6>
       <div class="paragraph">
         <p>
@@ -84,7 +84,7 @@
         class="img-fluid"
         alt=""
       />
-      <div class="hours px-5 justify-content-center">
+      <div class="hours">
         <p id="line1">
           <strong>Opening hours:</strong> everyday from 6am to 5pm.
         </p>
@@ -96,36 +96,69 @@
     <div id="menu" class="drink container">
       <h6>THE MENU</h6>
       <!-- Nav pills -->
-      <ul class="nav nav-pills nav-fill" role="tablist">
+      <ul class="nav nav-pills nav-fill mt-5" role="tablist">
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
+          <a class="nav-link active" data-bs-toggle="pill" href="#home">Eat</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
+          <a class="nav-link" data-bs-toggle="pill" href="#menu2">Drink</a>
         </li>
       </ul>
 
       <!-- Tab panes -->
-      <div class="tab-content">
-        <div id="menu1" class="container tab-pane fade active">
-          <br />
-          <h3>Menu 1</h3>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+      <div class="tab-content py-5">
+        <div id="home" class="container tab-pane active">
+          <h5>Bread Basket</h5>
+          <p class="text">
+            Assortment of fresh baked fruit breads and muffins 5.50
           </p>
+          <br />
+
+          <h5>Honey Almond Granola with Fruits</h5>
+          <p class="text">
+            Natural cereal of honey toasted oats, raisins, almonds and dates
+            7.00
+          </p>
+          <br />
+
+          <h5>Belgian Waffle</h5>
+          <p class="text">Vanilla flavored batter with malted flour 7.50</p>
+          <br />
+
+          <h5>Scrambled eggs</h5>
+          <p class="text">
+            Scrambled eggs, roasted red pepper and garlic, with green onions
+            7.50
+          </p>
+          <br />
+
+          <h5>Blueberry Pancakes</h5>
+          <p class="text">With syrup, butter and lots of berries 8.50</p>
         </div>
+
         <div id="menu2" class="container tab-pane fade">
+          <h5>Coffee</h5>
+          <p class="text">Regular coffee 2.50</p>
           <br />
-          <h3>Menu 2</h3>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam.
-          </p>
+
+          <h5>Chocolato</h5>
+          <p class="text">Chocolate espresso with milk 4.50</p>
+          <br />
+
+          <h5>Corretto</h5>
+          <p class="text">Whiskey and coffee 5.00</p>
+          <br />
+
+          <h5>Iced tea</h5>
+          <p class="text">Hot tea, except not hot 3.00</p>
+          <br />
+
+          <h5>Soda</h5>
+          <p class="text">Coke, Sprite, Fanta, etc. 2.50</p>
         </div>
       </div>
 
-      <div class="coffee-cup">
+      <div class="my-5">
         <img src="./coffeehouse2.jpg" alt="cup" class="img-fluid" />
       </div>
     </div>
@@ -200,7 +233,7 @@
     </form>
 
     <!--footer-->
-    <footer class="py-3 bg-body-secondary">
+    <footer class="py-3">
       <p class="text-center text-secondary">
         Powered by
         <a
