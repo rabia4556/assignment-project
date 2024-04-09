@@ -1,0 +1,260 @@
+.header .nav-item {
+  font-family: "Inconsolata";
+  font-size: 15px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header .nav-item:hover {
+  color: black;
+  background-color: #cccccc;
+}
+.header .nav-item:active {
+  color: black;
+  background-color: #cccccc;
+}
+
+.heading {
+  font-family: "Inconsolata";
+  font-size: 70px;
+  color: #ffffff !important;
+  text-align: center;
+  padding: 40px;
+}
+
+.cafe-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(coffeehouse.jpg);
+}
+
+.timing {
+  font-family: "Inconsolata";
+  font-size: 15px;
+  color: #ffffff !important;
+  background-color: black;
+  background-size: 30px;
+  display: inline-block;
+  /* justify-content: left;
+  align-content: left;
+  position: absolute;
+  top: 80%;
+  left: 1%;  */
+}
+.address {
+  font-family: "Inconsolata";
+  font-size: 15px;
+  color: #ffffff !important;
+  margin-left: auto;
+  text-align: right;
+  /* display: flex; */
+  /* justify-content: right;
+  align-content: right;
+  position: absolute;
+  left: 88%;
+  top: 80%; */
+}
+.about-the-cafe h6 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: #ffffff !important;
+  background-color: black;
+  background-size: cover;
+  display: inline-block;
+  padding: 8px;
+  letter-spacing: 4px;
+}
+.about-the-cafe {
+  /* padding: 64px;
+    margin: auto; */
+  text-align: center;
+}
+.paragraph {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+.paragraph2 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+.quote {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 18px;
+  /* position:absolute;
+    left:25%; */
+  background-color: #f3fafa;
+  border-left: 8px solid rgb(163, 161, 161) !important;
+}
+.view-image {
+  /* background-image:url(coffeeshop.jpg) ;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    position:absolute;
+    left:25%;     */
+}
+#line1 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+#line2 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+/*menu*/
+
+.drink h6 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: #ffffff !important;
+  background-color: black;
+  background-size: cover;
+  display: inline-block;
+  padding: 8px;
+  letter-spacing: 4px;
+}
+
+/*menu*/
+.drink {
+  /* width: 100%;
+      height: auto; */
+  /* display: flex; */
+  text-align: center;
+  padding: 0 200px;
+}
+
+.coffee-cup {
+  /* background-image:url(coffeehouse2.jpg) ;
+      background-size: cover;
+      width: 550px;
+      height: 320px;
+      margin: 20px; */
+}
+/*WHERE TO FIND US*/
+.where {
+  text-align: center;
+  padding: 20px 200px;
+}
+
+.where h6 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: #ffffff !important;
+  background-color: black;
+  background-size: cover;
+  display: inline-block;
+  padding: 8px;
+  letter-spacing: 4px;
+}
+.where-pg {
+  text-align: center;
+}
+
+#where-para-line {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  /* position: absolute;
+      left: 27%; */
+}
+
+.map {
+  /* background-image:url(map.jpg) ;
+      background-size: cover;
+      width: 600px;
+      height: 320px;
+      margin-top: 60px; */
+}
+#where-para-line2 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+}
+#where-para-line2 .fyi {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: #ffffff !important;
+  background-color: black;
+  background-size: cover;
+  display: inline-block;
+  padding: 3px;
+  letter-spacing: 4px;
+}
+#line3 {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  /* position: absolute; */
+  /* left: 27%; */
+}
+
+/*form*/
+
+.form {
+  /* display: block;
+  text-align: center;
+  margin: 0%;
+  padding-top: 150px;
+  position: relative; */
+  text-align: center;
+  padding: 0 200px;
+}
+.bar {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  border: 1px solid #cccccc;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  margin: 20px;
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.message {
+  font-family: "Inconsolata";
+  font-size: 18px;
+  /* position: absolute;
+  left: 28%;
+  bottom: -40px; */
+  text-align: left;
+  background-color: black;
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 10px;
+}
+footer {
+  margin-top: 70px;
+}
